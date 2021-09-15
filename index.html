@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yeralpasteleria</title>
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Este es mi sitio web donde elaboramos tortas para bodas, infantiles, cupcakes, y mas"
+    />
+    <meta
+      name="keywords"
+      content="tortas, fondant, cupcakes, postres, dulces"
+    />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- animacion JS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light colorFondo">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img
+              src="./multimedia/logo-original-yeral-removebg-preview.png"
+              alt="logo"
+              class="logo animate__animated animate__backInDown"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="
+                navbar-nav
+                ms-auto
+                text-center
+                my-2 my-lg-0
+                navbar-nav-scroll
+                animate__animated animate__backInDown
+              "
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./pages/sobre-mi.html"
+                  >Sobre mi</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./pages/servicio.html"
+                  >Servicios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./pages/galeria.html"
+                  >Galeria</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./pages/contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="miContainer">
+        <div class="contenidoPrincipal container-fluid">
+          <h2 class="miContenido__h2 animate__animated animate__backInDown">
+            Contenido Principal
+          </h2>
+          <p class="miContenido__p animate__animated animate__backInDown">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum aut
+            similique repellat omnis, sit nihil ut deleniti aspernatur ex
+            consequatur possimus molestias eius ipsa non maiores, debitis quo
+            minus animi!
+          </p>
+        </div>
+        <div class="box__Imagenes">
+          <div
+            class="
+              container
+              box__miCarousel
+              animate__animated animate__backInDown
+            "
+          >
+            <div class="row">
+              <div class="col">
+                <div
+                  id="carouselExampleControls"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="./multimedia/cake-2206618_1280.jpg"
+                        class="d-block w-100"
+                        alt="imagenCarousel"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./multimedia/cupcakes-2285209_1280.jpg"
+                        class="d-block w-100"
+                        alt="imagenCarousel"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./multimedia/wedding-cake-639181_1280.jpg"
+                        class="d-block w-100"
+                        alt="imagenCarousel"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="menu__Footer">
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/yeralpasteleria/"
+              ><img src="./multimedia/instagram.png" alt="logoInstagram"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/Yeralpasteleria-104569465208606"
+              ><img src="./multimedia/facebook.png" alt="logoFacebook"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://api.whatsapp.com/send?phone=5491124945627&text=Yeralpasteleria%20Phone"
+              ><img src="./multimedia/whatsapp.png" alt="logoWhatsApp"
+            /></a>
+          </li>
+        </ul>
+        &copy;2021 - Jesus Avila
+      </div>
+    </footer>
+    <!-- JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

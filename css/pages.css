@@ -1,0 +1,493 @@
+.footer__pages__mobile__tablet {
+  background-color: pink;
+  width: 100%;
+  height: auto;
+  font-size: 15px;
+}
+
+.footer__pages__mobile__tablet .container__footer {
+  padding: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__pages__mobile__tablet .container__footer ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__pages__mobile__tablet .container__footer img {
+  width: 20px;
+  height: auto;
+  margin-right: 20px;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+header {
+  width: 100%;
+  border-bottom: 2px solid white;
+}
+
+header .colorFondo {
+  background-color: pink;
+  height: auto;
+}
+
+header .colorFondo .logo {
+  width: 150px;
+  height: auto;
+}
+
+main {
+  background-image: url(../multimedia/fondo-flores.jpg);
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid white;
+}
+
+main .contenedor {
+  padding: 10px;
+}
+
+main .contenedor .contenido__sobreMi {
+  background-color: #000000c5;
+  text-align: center;
+  padding: 10px 10px;
+  -webkit-box-shadow: 0 0 10px 5px;
+          box-shadow: 0 0 10px 5px;
+  border-radius: 10px;
+}
+
+main .contenedor .contenido__sobreMi h2 {
+  color: white;
+  border-bottom: 1px solid white;
+  padding: 5px;
+  font-size: 25px;
+}
+
+main .contenedor .contenido__sobreMi p {
+  color: white;
+  font-size: 18px;
+}
+
+main .contenedor .imagen_chef {
+  background-image: none;
+}
+
+@media screen and (min-width: 768px) {
+  header .colorFondo {
+    background-color: pink;
+  }
+  header .colorFondo .logo {
+    width: 200px;
+    height: auto;
+  }
+  header .colorFondo ul {
+    font-size: 20px;
+  }
+  main {
+    background-image: url(../multimedia/fondo-flores-tablet-desktop.jpg);
+  }
+  main .contenedor .contenido__sobreMi {
+    width: 450px;
+    height: auto;
+  }
+  main .contenedor .contenido__sobreMi h2 {
+    font-size: 35px;
+    padding-bottom: 20px;
+  }
+  main .contenedor .contenido__sobreMi p {
+    font-size: 25px;
+    padding-bottom: 25px;
+  }
+}
+
+.footer__pages__mobile__tablet {
+  background-color: pink;
+  width: 100%;
+  height: auto;
+  font-size: 15px;
+}
+
+.footer__pages__mobile__tablet .container__footer {
+  padding: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__pages__mobile__tablet .container__footer ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__pages__mobile__tablet .container__footer img {
+  width: 20px;
+  height: auto;
+  margin-right: 20px;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+main .container__servicios {
+  -webkit-box-shadow: 0 0 10px 5px;
+          box-shadow: 0 0 10px 5px;
+  background-color: #000000c5;
+  padding: 0 15px;
+  border-radius: 10px;
+  height: auto;
+}
+
+main .container__servicios h2 {
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  border-bottom: 1px solid white;
+  font-size: 30px;
+}
+
+main .container__servicios ul {
+  color: white;
+  list-style: none;
+}
+
+main .container__servicios ul li {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+main .container__servicios ul li img {
+  width: 25px;
+}
+
+main .container__servicios p {
+  font-size: 15px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.footer__pages__mobile__tablet {
+  background-color: pink;
+  width: 100%;
+  height: auto;
+  font-size: 15px;
+}
+
+.footer__pages__mobile__tablet .container__footer {
+  padding: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__pages__mobile__tablet .container__footer ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__pages__mobile__tablet .container__footer img {
+  width: 20px;
+  height: auto;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  header .colorFondo .logo {
+    width: 200px;
+  }
+  header .colorFondo ul {
+    font-size: 20px;
+  }
+  header .colorFondo ul a:hover {
+    background-color: #ffffff7a;
+    border-radius: 10px;
+  }
+  main {
+    background-image: url(../multimedia/fondo-flores-tablet-desktop.jpg);
+    width: 100%;
+    height: auto;
+  }
+  main .container__servicios {
+    width: 500px;
+    height: auto;
+    -webkit-box-shadow: 0 0 10px 5px;
+            box-shadow: 0 0 10px 5px;
+  }
+  main .container__servicios h2 {
+    font-size: 35px;
+    border-bottom: 1 solid white;
+  }
+  main .container__servicios ul li {
+    font-size: 25px;
+    text-align: left;
+  }
+  main .container__servicios p {
+    font-size: 20px;
+  }
+}
+
+header {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  width: 320px;
+  height: auto;
+}
+
+main .contenedor__Galeria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .contenedor__Galeria .boxGaleriaUno img {
+  width: 250px;
+  height: auto;
+  margin: 10px;
+}
+
+main .contenedor__Galeria .boxGaleriaDos img {
+  width: 250px;
+  height: auto;
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    width: 100%;
+    height: auto;
+  }
+  main .contenedor__Galeria {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+    -ms-grid-columns: 400px 300px;
+        grid-template-columns: 400px 300px;
+    gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .contenedor__Galeria .boxGaleriaUno img {
+    width: 300px;
+    height: auto;
+  }
+  main .contenedor__Galeria .boxGaleriaDos img {
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+    height: auto;
+  }
+  main .contenedor__Galeria {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 380px 450px;
+        grid-template-rows: 380px 450px;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+    gap: 15px;
+  }
+  main .contenedor__Galeria .boxGaleriaUno img {
+    width: 350px;
+    height: auto;
+    margin-top: 10px;
+    text-align: center;
+  }
+  main .contenedor__Galeria .boxGaleriaDos img {
+    width: 350px;
+    height: 400px;
+    text-align: center;
+  }
+}
+
+.footer__pages__mobile__tablet {
+  background-color: pink;
+  width: 100%;
+  height: auto;
+  font-size: 15px;
+}
+
+.footer__pages__mobile__tablet .container__footer {
+  padding: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__pages__mobile__tablet .container__footer ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__pages__mobile__tablet .container__footer img {
+  width: 20px;
+  height: auto;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  main {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .container__Contacto {
+    width: 500px;
+    height: 300px;
+  }
+  main .mi__form {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    width: 100%;
+    height: 500px;
+  }
+  footer .copy {
+    font-size: 15px;
+  }
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+main .container__Contacto {
+  text-align: center;
+  height: auto;
+  background-color: #000000c5;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px 5px;
+          box-shadow: 0 0 10px 5px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+main .container__Contacto p {
+  color: white;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+main .container__Contacto nav ul {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffa60091), to(#ff000080));
+  background-image: linear-gradient(to right, #ffa60091, #ff000080);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 5px 5px;
+          box-shadow: 0 0 5px 5px;
+}
+
+main .container__Contacto nav ul li {
+  list-style: none;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+main .container__Contacto nav ul li a img {
+  width: 20px;
+}
+
+main .mi__form {
+  padding-bottom: 10px;
+  background-color: #ffffffc9;
+  border-radius: 10px;
+  text-align: center;
+}
+
+main .mi__form .color__texto {
+  color: white;
+  font-size: 20px;
+}
+
+footer {
+  background-color: pink;
+  height: auto;
+}
+
+footer .copy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=pages.css.map */

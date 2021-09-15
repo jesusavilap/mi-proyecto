@@ -1,0 +1,31 @@
+@media screen and (min-width:768px) {
+     header{
+        .colorFondo{
+            background-color:pink;
+            .logo{
+             width: 200px;
+             height: auto;
+            }
+            ul{
+             font-size: 20px;
+            }
+        }   
+    }
+    main{
+        background-image: url(../multimedia/fondo-flores-tablet-desktop.jpg);
+        .contenedor{
+            .contenido__sobreMi{
+                width: 450px;
+                height: auto;
+                h2{
+                    font-size: 35px;
+                    padding-bottom: 20px;            
+                }
+                p{
+                    font-size: 25px;
+                    padding-bottom: 25px;
+                }
+            }
+        }    
+    }    
+}

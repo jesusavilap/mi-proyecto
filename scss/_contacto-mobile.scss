@@ -1,0 +1,58 @@
+main{
+    width: 100%;
+    height: auto;
+    .container__Contacto{
+        text-align: center;
+        height: auto;
+        background-color: #000000c5;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 5px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        p{
+            color: white;
+            padding: 5px 10px;
+            font-size: 20px;
+        }
+        nav{
+            ul{
+                background-image: linear-gradient( to right, #ffa60091, #ff000080);
+                display: flex;
+                justify-content: center;
+                margin-left: 10px;
+                margin-right: 10px;
+                border-radius: 10px;
+                box-shadow: 0 0 5px 5px;
+                li{
+                    list-style: none;
+                    margin-right: 10px;
+                    padding: 5px;
+                    a{
+                        img{
+                           width: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .mi__form{
+        padding-bottom: 10px;
+        background-color: #ffffffc9;
+        border-radius: 10px;
+        text-align: center;
+        .color__texto{
+            color: white;
+            font-size: 20px;
+        }
+    }
+}
+footer{
+    background-color: pink;
+    height:auto;
+    .copy{
+        display: flex;
+        justify-content: center;
+    }
+}

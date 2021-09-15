@@ -1,0 +1,47 @@
+@media screen and (min-width:768px){
+   header{
+       .colorFondo{
+        .logo{
+            width: 150px;
+            height: auto;
+        }
+        ul{
+            font-size: 20px;
+        }
+    }
+ }
+ main{
+    .miContainer{
+        .contenidoPrincipal{
+            width: 600px;
+            height: auto;
+            h2{
+                font-size: 35px;
+                margin: 15px;
+            }
+            p{
+                font-size: 25px;
+                margin: 15px;
+                padding-bottom: 25px;
+            }
+        }
+    }
+ }
+
+ footer{
+     font-size: 20px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

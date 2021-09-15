@@ -1,0 +1,26 @@
+@media screen and (min-width:1200px){
+    header{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+        height: auto;
+        .contenedor__Galeria{
+            display: grid;
+            grid-template-rows: 380px 450px;
+            grid-template-columns: auto auto auto;
+            gap: 15px;
+            .boxGaleriaUno img{
+                width: 350px;
+                height: auto;
+                margin-top: 10px;
+                text-align: center;
+            }
+            .boxGaleriaDos img{
+                width: 350px;
+                height: 400px;
+                text-align: center;
+            }
+        }
+    }
+}

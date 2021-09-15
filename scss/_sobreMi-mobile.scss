@@ -1,0 +1,44 @@
+body{
+    font-family: "Oswald", sans-serif;
+    }
+    header{
+        width: 100%;
+        border-bottom: 2px solid white;
+        .colorFondo{
+            background-color: pink;
+            height: auto;
+            .logo{
+                width: 150px;
+                height: auto;
+            }
+        }
+    }
+    main{
+       background-image: url(../multimedia/fondo-flores.jpg);
+       width: 100%;
+       height: auto;
+       border-bottom: 2px solid white;
+        .contenedor{
+            padding: 10px;
+            .contenido__sobreMi{
+                background-color:#000000c5 ;
+                text-align: center;
+                padding: 10px 10px;
+                box-shadow: 0 0 10px 5px;
+                border-radius: 10px;
+                h2{
+                color: white;
+                border-bottom: 1px solid white;
+                padding: 5px;
+                font-size: 25px;
+                }
+                p{
+                color: white;
+                font-size: 18px;
+                }
+            }
+            .imagen_chef{
+                background-image: none;
+            }
+        }
+    }
