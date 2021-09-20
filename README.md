@@ -1,6 +1,6 @@
 # Mi Poryecto - Jesus Avila  
 ## Yeralpasteleria 
 ### Aplicando:
-- HMTML
+- HTML
 - CSS 
 - SCSS
