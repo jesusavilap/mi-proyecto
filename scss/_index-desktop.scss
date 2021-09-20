@@ -23,6 +23,11 @@
             display: flex;
             .contenidoPrincipal{
                 background-color:#000000c5;
+                width: 600px;
+                height: 450px;
+                h2{
+                    font-size: 35px;
+                }
                 p{
                     font-size: 30px;
                     text-align: center;
