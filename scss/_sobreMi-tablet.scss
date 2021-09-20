@@ -3,7 +3,7 @@
         .colorFondo{
             background-color:pink;
             .logo{
-             width: 200px;
+             width: 150px;
              height: auto;
             }
             ul{
@@ -14,17 +14,23 @@
     main{
         background-image: url(../multimedia/fondo-flores-tablet-desktop.jpg);
         .contenedor{
+            display: flex;
             .contenido__sobreMi{
-                width: 450px;
+                width: 350px;
                 height: auto;
                 h2{
-                    font-size: 35px;
+                    font-size: 30px;
                     padding-bottom: 20px;            
                 }
                 p{
-                    font-size: 25px;
+                    font-size: 20px;
                     padding-bottom: 25px;
                 }
+            }
+            .imagen__chef img{
+                width: 300px;
+                height: auto;
+                margin: 0 10px;
             }
         }    
     }    

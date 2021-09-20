@@ -83,8 +83,13 @@ main .contenedor .contenido__sobreMi p {
   font-size: 18px;
 }
 
-main .contenedor .imagen_chef {
-  background-image: none;
+main .contenedor .imagen__chef img {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 260px;
+  height: auto;
+  margin-top: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -92,7 +97,7 @@ main .contenedor .imagen_chef {
     background-color: pink;
   }
   header .colorFondo .logo {
-    width: 200px;
+    width: 150px;
     height: auto;
   }
   header .colorFondo ul {
@@ -101,17 +106,38 @@ main .contenedor .imagen_chef {
   main {
     background-image: url(../multimedia/fondo-flores-tablet-desktop.jpg);
   }
+  main .contenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   main .contenedor .contenido__sobreMi {
-    width: 450px;
+    width: 350px;
     height: auto;
   }
   main .contenedor .contenido__sobreMi h2 {
-    font-size: 35px;
+    font-size: 30px;
     padding-bottom: 20px;
   }
   main .contenedor .contenido__sobreMi p {
-    font-size: 25px;
+    font-size: 20px;
     padding-bottom: 25px;
+  }
+  main .contenedor .imagen__chef img {
+    width: 300px;
+    height: auto;
+    margin: 0 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header {
+    width: 100%;
+    height: auto;
+  }
+  header .colorFondo .logo {
+    width: 180px;
+    height: auto;
   }
 }
 
@@ -228,7 +254,7 @@ main .container__servicios p {
 
 @media screen and (min-width: 768px) {
   header .colorFondo .logo {
-    width: 200px;
+    width: 150px;
   }
   header .colorFondo ul {
     font-size: 20px;
@@ -258,6 +284,17 @@ main .container__servicios p {
   }
   main .container__servicios p {
     font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header {
+    width: 100%;
+    height: auto;
+  }
+  header .colorFondo .logo {
+    width: 180px;
+    height: auto;
   }
 }
 
@@ -323,6 +360,11 @@ main .contenedor__Galeria .boxGaleriaDos img {
 @media screen and (min-width: 1200px) {
   header {
     width: 100%;
+    height: auto;
+  }
+  header .colorFondo .logo {
+    width: 180px;
+    height: auto;
   }
   main {
     width: 100%;
@@ -385,6 +427,14 @@ main .contenedor__Galeria .boxGaleriaDos img {
 }
 
 @media screen and (min-width: 1200px) {
+  header {
+    width: 100%;
+    height: auto;
+  }
+  header .colorFondo .logo {
+    width: 180px;
+    height: auto;
+  }
   main {
     -webkit-box-align: center;
         -ms-flex-align: center;

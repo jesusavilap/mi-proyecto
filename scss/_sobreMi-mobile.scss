@@ -21,7 +21,7 @@ body{
         .contenedor{
             padding: 10px;
             .contenido__sobreMi{
-                background-color:#000000c5 ;
+                background-color:#000000c5;
                 text-align: center;
                 padding: 10px 10px;
                 box-shadow: 0 0 10px 5px;
@@ -37,8 +37,12 @@ body{
                 font-size: 18px;
                 }
             }
-            .imagen_chef{
-                background-image: none;
+        
+            .imagen__chef img{
+             align-items: center;
+             width: 260px;
+             height: auto;
+             margin-top: 10px;
             }
         }
     }

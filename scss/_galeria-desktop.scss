@@ -1,6 +1,13 @@
 @media screen and (min-width:1200px){
     header{
         width: 100%;
+        height: auto;
+        .colorFondo{
+            .logo{
+                width: 180px;
+                height: auto;
+            }
+        }
     }
     main{
         width: 100%;
