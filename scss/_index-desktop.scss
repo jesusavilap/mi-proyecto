@@ -1,7 +1,7 @@
 @media screen and (min-width:1200px){
     header{
         .colorFondo{
-            background-color:pink;
+            background-color: pink;
             .logo{
                 width: 180px;
                 height: auto;
@@ -11,18 +11,18 @@
                    font-size: 20px;
                 }
                 a:hover{
-                    background-color: #ffffff7a;
+                    background-color: pink;
                     border-radius: 10px;
                 }
             }
         }
     }
     main{
-        background-image: url(../multimedia/fondo-flores-tablet-desktop.jpg);
+        background-color:none;
         .miContainer{
             display: flex;
             .contenidoPrincipal{
-                background-color:#000000c5;
+                
                 width: 600px;
                 height: 450px;
                 h2{
@@ -33,6 +33,10 @@
                     text-align: center;
                 }
             }
+         .box__Imagenes{
+             /* width:100%; */
+             height: auto;
+         }
         }
     }
 }

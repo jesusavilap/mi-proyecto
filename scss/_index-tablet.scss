@@ -1,6 +1,7 @@
 @media screen and (min-width:768px){
    header{
        .colorFondo{
+           background-color:none;
         .logo{
             width: 150px;
             height: auto;
@@ -24,6 +25,10 @@
                 margin: 15px;
                 padding-bottom: 25px;
             }
+        }
+        .box__Imagenes{
+            width: 100%;
+            height: auto;
         }
     }
  }

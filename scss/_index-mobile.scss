@@ -22,34 +22,32 @@ main{
     .miContainer{
         height: auto;
         padding: 10px;
-        .contenidoPrincipal{
-            text-align: center;
-            padding-top:10px;
-            background-color: #000000c5;
-            box-shadow: 0 0 10px 5px;
-            border-radius: 10px;
-            padding-left: 10px;
-            padding-right: 10px;
-            h2{
-             color: white;
-             margin-top: 0px;
-             font-size: 25px;
-             border-bottom: 1px solid white;
-             padding-bottom: 5px;
-            }
-            p{
-             color: white;
-             font-size: 20px;
-             padding-bottom: 5px;
-            }
-        
+    }
+    .description__one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 250px;
+            height: auto;
+        }
+        p{
+         width: 250px;
+         height: auto;
+         text-align:justify;
+         font-size: 15px;
+         margin: 5px;
+         color: black;
+         background-color: white;
+         padding: 2px 10px;
         }
     }
+
 
 }
 
 footer{
-    background-color: pink;
+    background-color:pink;
     width: 100%;
     height: 100%;
     font-size: 15px;
