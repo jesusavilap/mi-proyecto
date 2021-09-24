@@ -11,32 +11,49 @@
                    font-size: 20px;
                 }
                 a:hover{
-                    background-color: pink;
+                    background-color:#ffffffa6;
                     border-radius: 10px;
                 }
             }
         }
     }
     main{
-        background-color:none;
+        width:100%;
+        height: auto;
+        background-image: url(../multimedia/fondo-flores-tablet-desktop.jpg);
         .miContainer{
-            display: flex;
-            .contenidoPrincipal{
-                
-                width: 600px;
-                height: 450px;
+            .presentacion__Home{
+                width:1200px;
+                height: auto;
+                h1{
+                   color:pink;
+                   font-size: 45px;
+                }
                 h2{
-                    font-size: 35px;
+                    color: pink;
+                    font-size: 45px;
                 }
                 p{
                     font-size: 30px;
-                    text-align: center;
                 }
             }
-         .box__Imagenes{
-             /* width:100%; */
-             height: auto;
-         }
+        }
+        .miContainer__dos{
+            h3{
+                font-size: 30px;
+                height: 50px;
+            }
+            .description__one{
+                img{
+                    width: 500px;
+                    height: auto;
+                }
+                p{
+                    width: 500px;
+                    height: auto;
+                    font-size: 25px;
+                }
+            }
         }
     }
 }

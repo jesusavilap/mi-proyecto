@@ -15,7 +15,7 @@ header {
 }
 
 header .colorFondo {
-  background-color: pink;
+  background-color: #ffc0cb;
   height: auto;
 }
 
@@ -25,18 +25,56 @@ header .logo {
 }
 
 main {
-  border-bottom: 2px solid white;
-  background-image: url(../multimedia/fondo-flores.jpg);
   width: 100%;
   height: auto;
+  background-image: url(../multimedia/fondo-flores.jpg);
 }
 
 main .miContainer {
-  height: auto;
-  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
 }
 
-main .description__one {
+main .miContainer .presentacion__Home {
+  height: auto;
+  background-color: #000000b6;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin: 0 2px;
+}
+
+main .miContainer .presentacion__Home h1 {
+  color: #ffffffde;
+  font-size: 30px;
+}
+
+main .miContainer .presentacion__Home h2 {
+  color: #ffffffde;
+  font-size: 30px;
+  border-bottom: 1px solid white;
+}
+
+main .miContainer .presentacion__Home p {
+  font-size: 20px;
+  color: white;
+  padding-top: 30px;
+}
+
+main .miContainer__dos h3 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: turquoise;
+}
+
+main .miContainer__dos .description__one {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,26 +87,23 @@ main .description__one {
           align-items: center;
 }
 
-main .description__one img {
+main .miContainer__dos .description__one img {
   width: 250px;
   height: auto;
 }
 
-main .description__one p {
-  width: 250px;
-  height: auto;
-  text-align: justify;
+main .miContainer__dos .description__one p {
   font-size: 15px;
-  margin: 5px;
-  color: black;
+  text-align: center;
   background-color: white;
-  padding: 2px 10px;
+  width: 250px;
+  padding: 0 5px;
 }
 
 footer {
   background-color: pink;
   width: 100%;
-  height: 100%;
+  height: auto;
   font-size: 15px;
 }
 
@@ -110,22 +145,57 @@ footer .menu__Footer img {
   header .colorFondo ul {
     font-size: 20px;
   }
-  main .miContainer .contenidoPrincipal {
-    width: 600px;
-    height: auto;
-  }
-  main .miContainer .contenidoPrincipal h2 {
-    font-size: 35px;
-    margin: 15px;
-  }
-  main .miContainer .contenidoPrincipal p {
-    font-size: 25px;
-    margin: 15px;
-    padding-bottom: 25px;
-  }
-  main .miContainer .box__Imagenes {
+  main {
     width: 100%;
     height: auto;
+    background-image: url(../multimedia/fondo-flores-tablet-desktop.jpg);
+  }
+  main .miContainer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .miContainer .presentacion__Home {
+    width: 550px;
+    height: auto;
+    margin-top: 10px;
+    padding: 10px 10px;
+  }
+  main .miContainer .presentacion__Home h1 {
+    font-size: 35px;
+  }
+  main .miContainer .presentacion__Home h2 {
+    font-size: 35px;
+    padding-bottom: 8px;
+  }
+  main .miContainer .presentacion__Home p {
+    font-size: 25px;
+  }
+  main .miContainer__dos h3 {
+    font-size: 25px;
+  }
+  main .miContainer__dos .description__one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  main .miContainer__dos .description__one img {
+    width: 350px;
+  }
+  main .miContainer__dos .description__one p {
+    width: 350px;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  main .miContainer__dos .description__reverse {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
   }
   footer {
     font-size: 20px;
@@ -144,31 +214,41 @@ footer .menu__Footer img {
     font-size: 20px;
   }
   header .colorFondo ul a:hover {
-    background-color: pink;
+    background-color: #ffffffa6;
     border-radius: 10px;
   }
   main {
-    background-color: none;
-  }
-  main .miContainer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  main .miContainer .contenidoPrincipal {
-    width: 600px;
-    height: 450px;
-  }
-  main .miContainer .contenidoPrincipal h2 {
-    font-size: 35px;
-  }
-  main .miContainer .contenidoPrincipal p {
-    font-size: 30px;
-    text-align: center;
-  }
-  main .miContainer .box__Imagenes {
-    /* width:100%; */
+    width: 100%;
     height: auto;
+    background-image: url(../multimedia/fondo-flores-tablet-desktop.jpg);
+  }
+  main .miContainer .presentacion__Home {
+    width: 1200px;
+    height: auto;
+  }
+  main .miContainer .presentacion__Home h1 {
+    color: pink;
+    font-size: 45px;
+  }
+  main .miContainer .presentacion__Home h2 {
+    color: pink;
+    font-size: 45px;
+  }
+  main .miContainer .presentacion__Home p {
+    font-size: 30px;
+  }
+  main .miContainer__dos h3 {
+    font-size: 30px;
+    height: 50px;
+  }
+  main .miContainer__dos .description__one img {
+    width: 500px;
+    height: auto;
+  }
+  main .miContainer__dos .description__one p {
+    width: 500px;
+    height: auto;
+    font-size: 25px;
   }
 }
 /*# sourceMappingURL=style.css.map */
