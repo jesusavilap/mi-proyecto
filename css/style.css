@@ -28,6 +28,7 @@ main {
   width: 100%;
   height: auto;
   background-image: url(../multimedia/fondo-flores.jpg);
+  border-bottom: 2px solid white;
 }
 
 main .miContainer {
@@ -43,27 +44,31 @@ main .miContainer {
 
 main .miContainer .presentacion__Home {
   height: auto;
-  background-color: #000000b6;
+  background-color: #ffffffd8;
   padding: 5px 5px;
   border-radius: 5px;
-  margin: 0 2px;
+  margin: 10px 2px;
 }
 
 main .miContainer .presentacion__Home h1 {
-  color: #ffffffde;
+  color: black;
   font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
 }
 
 main .miContainer .presentacion__Home h2 {
-  color: #ffffffde;
+  color: black;
   font-size: 30px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
 }
 
 main .miContainer .presentacion__Home p {
   font-size: 20px;
-  color: white;
-  padding-top: 30px;
+  color: black;
+  padding-top: 20px;
 }
 
 main .miContainer__dos h3 {
@@ -104,11 +109,54 @@ footer {
   background-color: pink;
   width: 100%;
   height: auto;
-  font-size: 15px;
 }
 
 footer .menu__Footer {
-  padding: 100px;
+  border-bottom: 2px solid black;
+  margin: 0 10px;
+}
+
+footer .menu__Footer h5 {
+  color: #000000a1;
+  font-size: 20px;
+  padding-top: 5px;
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #000000;
+  margin: 0 10px;
+}
+
+footer .menu__Footer h6 {
+  font-size: 18px;
+  padding-bottom: 12px;
+  padding-top: 15px;
+}
+
+footer .menu__Footer .name {
+  font-style: italic;
+}
+
+footer .menu__Footer ul {
+  list-style: none;
+}
+
+footer .menu__Footer ul li {
+  padding-bottom: 15px;
+}
+
+footer .menu__Footer ul li a {
+  color: black;
+}
+
+footer .menu__Footer ul li a img {
+  width: 20px;
+}
+
+footer a img {
+  width: 20px;
+}
+
+footer .copy {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -116,22 +164,11 @@ footer .menu__Footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  text-align: center;
 }
 
-footer .menu__Footer ul {
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-footer .menu__Footer img {
-  width: 25px;
-  height: auto;
-  margin-right: 20px;
+footer .copy p {
+  padding-top: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -156,7 +193,7 @@ footer .menu__Footer img {
             align-items: center;
   }
   main .miContainer .presentacion__Home {
-    width: 550px;
+    width: 700px;
     height: auto;
     margin-top: 10px;
     padding: 10px 10px;
@@ -172,7 +209,7 @@ footer .menu__Footer img {
     font-size: 25px;
   }
   main .miContainer__dos h3 {
-    font-size: 25px;
+    font-size: 30px;
   }
   main .miContainer__dos .description__one {
     display: -webkit-box;
@@ -198,7 +235,7 @@ footer .menu__Footer img {
             flex-direction: row-reverse;
   }
   footer {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -225,21 +262,34 @@ footer .menu__Footer img {
   main .miContainer .presentacion__Home {
     width: 1200px;
     height: auto;
+    background-color: #ffffff00;
   }
   main .miContainer .presentacion__Home h1 {
-    color: pink;
+    background-color: white;
+    color: #70070e;
     font-size: 45px;
+    -webkit-box-shadow: 0 0 10px 5px #000000c0;
+            box-shadow: 0 0 10px 5px #000000c0;
   }
   main .miContainer .presentacion__Home h2 {
-    color: pink;
+    margin-top: -10px;
+    background-color: white;
+    color: #70070e;
     font-size: 45px;
+    border-bottom: none;
   }
   main .miContainer .presentacion__Home p {
+    background-color: white;
     font-size: 30px;
+    margin-top: -20px;
   }
   main .miContainer__dos h3 {
+    background-color: white;
+    -webkit-box-shadow: 0 0 5px 5px #000000c0;
+            box-shadow: 0 0 5px 5px #000000c0;
     font-size: 30px;
     height: 50px;
+    color: #70070e;
   }
   main .miContainer__dos .description__one img {
     width: 500px;

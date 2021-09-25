@@ -25,23 +25,34 @@
             .presentacion__Home{
                 width:1200px;
                 height: auto;
+                background-color:#ffffff00;
                 h1{
-                   color:pink;
-                   font-size: 45px;
-                }
-                h2{
-                    color: pink;
+                    background-color: white;
+                    color:#70070e;
                     font-size: 45px;
-                }
+                    box-shadow: 0 0 10px 5px #000000c0;
+                 }
+                 h2{
+                     margin-top: -10px;
+                     background-color: white;
+                     color:#70070e;
+                     font-size: 45px;
+                     border-bottom: none;
+                 }
                 p{
+                    background-color: white;
                     font-size: 30px;
+                    margin-top: -20px;
                 }
             }
         }
         .miContainer__dos{
             h3{
+                background-color: white;
+                box-shadow: 0 0 5px 5px #000000c0;
                 font-size: 30px;
                 height: 50px;
+                color: #70070e;
             }
             .description__one{
                 img{
