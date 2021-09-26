@@ -1,5 +1,5 @@
 body{
-    font-family: "Oswald", sans-serif;
+    font-family: 'Aladin', cursive;
     }
     header{
         width: 100%;
@@ -14,35 +14,93 @@ body{
         }
     }
     main{
-       background-image: url(../multimedia/fondo-flores.jpg);
+       background-color: #ffc0cbaf; 
        width: 100%;
        height: auto;
        border-bottom: 2px solid white;
         .contenedor{
-            padding: 10px;
+            padding: 5px;
             .contenido__sobreMi{
-                background-color:#000000c5;
                 text-align: center;
                 padding: 10px 10px;
-                box-shadow: 0 0 10px 5px;
-                border-radius: 10px;
                 h2{
-                color: white;
-                border-bottom: 1px solid white;
-                padding: 5px;
-                font-size: 25px;
+                color:#70070e;
+                border-bottom: 1px solid black;
+                font-size: 28px;
                 }
                 p{
-                color: white;
+                color:black;
                 font-size: 18px;
                 }
             }
-        
             .imagen__chef img{
              align-items: center;
              width: 260px;
              height: auto;
              margin-top: 10px;
+            }
+        }
+    }
+    footer{
+        background-color: pink;
+        width: 100%;
+        height:auto;
+        h5{
+            text-align: center;
+            font-size: 18px;
+            padding-top: 10px;
+            border-bottom: 1px solid white;
+            margin: 0 25px;
+            margin-bottom: 10px;
+        }
+        .menu__Footer{
+            border-bottom: 2px solid black;
+            .footer__redes{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                ul{
+                    list-style: none;
+                    li{
+                        padding-top: 5px;
+                        a{
+                            color: black;
+                            img{
+                                width: 20px;
+                            }
+                        }
+                       
+                    }
+                }
+            }
+            .footer__contacto{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                .name{
+                    font-size: 18px;
+                }
+                ul{
+                    list-style: none;
+                    li{
+                        padding-top: 5px;
+                        a{
+                            color: black;
+                            img{
+                                width: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        
+        }    
+        .copy{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            p{
+                padding-top: 10px;
             }
         }
     }

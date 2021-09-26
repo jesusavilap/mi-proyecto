@@ -9,4 +9,26 @@
             }
         }
     }
+    main{
+        .contenedor{
+            display: flex;
+            flex-direction: row;
+            .contenido__sobreMi{
+                width: 400px;
+                height: auto;
+                h2{
+                    font-size: 40px;
+                    padding-bottom: 0px;
+                }
+                p{
+                    font-size: 25px;
+                    
+                }
+            }
+            .imagen__chef img{
+                width: 380px;
+                margin-left: 280px;
+            }
+        }
+    }
 }

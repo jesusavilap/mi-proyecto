@@ -33,7 +33,7 @@
 }
 
 body {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Aladin', cursive;
 }
 
 header {
@@ -52,34 +52,29 @@ header .colorFondo .logo {
 }
 
 main {
-  background-image: url(../multimedia/fondo-flores.jpg);
+  background-color: #ffc0cbaf;
   width: 100%;
   height: auto;
   border-bottom: 2px solid white;
 }
 
 main .contenedor {
-  padding: 10px;
+  padding: 5px;
 }
 
 main .contenedor .contenido__sobreMi {
-  background-color: #000000c5;
   text-align: center;
   padding: 10px 10px;
-  -webkit-box-shadow: 0 0 10px 5px;
-          box-shadow: 0 0 10px 5px;
-  border-radius: 10px;
 }
 
 main .contenedor .contenido__sobreMi h2 {
-  color: white;
-  border-bottom: 1px solid white;
-  padding: 5px;
-  font-size: 25px;
+  color: #70070e;
+  border-bottom: 1px solid black;
+  font-size: 28px;
 }
 
 main .contenedor .contenido__sobreMi p {
-  color: white;
+  color: black;
   font-size: 18px;
 }
 
@@ -90,6 +85,98 @@ main .contenedor .imagen__chef img {
   width: 260px;
   height: auto;
   margin-top: 10px;
+}
+
+footer {
+  background-color: pink;
+  width: 100%;
+  height: auto;
+}
+
+footer h5 {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 10px;
+  border-bottom: 1px solid white;
+  margin: 0 25px;
+  margin-bottom: 10px;
+}
+
+footer .menu__Footer {
+  border-bottom: 2px solid black;
+}
+
+footer .menu__Footer .footer__redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+footer .menu__Footer .footer__redes ul {
+  list-style: none;
+}
+
+footer .menu__Footer .footer__redes ul li {
+  padding-top: 5px;
+}
+
+footer .menu__Footer .footer__redes ul li a {
+  color: black;
+}
+
+footer .menu__Footer .footer__redes ul li a img {
+  width: 20px;
+}
+
+footer .menu__Footer .footer__contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+footer .menu__Footer .footer__contacto .name {
+  font-size: 18px;
+}
+
+footer .menu__Footer .footer__contacto ul {
+  list-style: none;
+}
+
+footer .menu__Footer .footer__contacto ul li {
+  padding-top: 5px;
+}
+
+footer .menu__Footer .footer__contacto ul li a {
+  color: black;
+}
+
+footer .menu__Footer .footer__contacto ul li a img {
+  width: 20px;
+}
+
+footer .copy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+footer .copy p {
+  padding-top: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -104,12 +191,15 @@ main .contenedor .imagen__chef img {
     font-size: 20px;
   }
   main {
-    background-image: url(../multimedia/fondo-flores-tablet-desktop.jpg);
+    background-color: #ffc0cbaf;
   }
   main .contenedor {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   main .contenedor .contenido__sobreMi {
     width: 350px;
@@ -117,16 +207,33 @@ main .contenedor .imagen__chef img {
   }
   main .contenedor .contenido__sobreMi h2 {
     font-size: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
   main .contenedor .contenido__sobreMi p {
     font-size: 20px;
-    padding-bottom: 25px;
   }
   main .contenedor .imagen__chef img {
     width: 300px;
     height: auto;
     margin: 0 10px;
+  }
+  footer h5 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  footer .menu__Footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer .menu__Footer h5 {
+    text-align: center;
+  }
+  footer .copy {
+    font-size: 18px;
   }
 }
 
@@ -138,6 +245,30 @@ main .contenedor .imagen__chef img {
   header .colorFondo .logo {
     width: 180px;
     height: auto;
+  }
+  main .contenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  main .contenedor .contenido__sobreMi {
+    width: 400px;
+    height: auto;
+  }
+  main .contenedor .contenido__sobreMi h2 {
+    font-size: 40px;
+    padding-bottom: 0px;
+  }
+  main .contenedor .contenido__sobreMi p {
+    font-size: 25px;
+  }
+  main .contenedor .imagen__chef img {
+    width: 380px;
+    margin-left: 280px;
   }
 }
 
@@ -264,7 +395,6 @@ main .container__servicios p {
     border-radius: 10px;
   }
   main {
-    background-image: url(../multimedia/fondo-flores-tablet-desktop.jpg);
     width: 100%;
     height: auto;
   }

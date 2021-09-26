@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Aladin', cursive;
 }
 
 header {
@@ -27,7 +27,7 @@ header .logo {
 main {
   width: 100%;
   height: auto;
-  background-image: url(../multimedia/fondo-flores.jpg);
+  background-color: #ffc0cbaf;
   border-bottom: 2px solid white;
 }
 
@@ -44,25 +44,20 @@ main .miContainer {
 
 main .miContainer .presentacion__Home {
   height: auto;
-  background-color: #ffffffd8;
   padding: 5px 5px;
   border-radius: 5px;
   margin: 10px 2px;
 }
 
 main .miContainer .presentacion__Home h1 {
-  color: black;
+  color: #70070e;
   font-size: 30px;
-  font-family: 'Times New Roman', Times, serif;
-  font-style: italic;
 }
 
 main .miContainer .presentacion__Home h2 {
-  color: black;
+  color: #70070e;
   font-size: 30px;
   border-bottom: 1px solid black;
-  font-family: 'Times New Roman', Times, serif;
-  font-style: italic;
 }
 
 main .miContainer .presentacion__Home p {
@@ -76,7 +71,7 @@ main .miContainer__dos h3 {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: turquoise;
+  background-color: white;
 }
 
 main .miContainer__dos .description__one {
@@ -111,48 +106,74 @@ footer {
   height: auto;
 }
 
+footer h5 {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 10px;
+  border-bottom: 1px solid white;
+  margin: 0 25px;
+  margin-bottom: 10px;
+}
+
 footer .menu__Footer {
   border-bottom: 2px solid black;
-  margin: 0 10px;
 }
 
-footer .menu__Footer h5 {
-  color: #000000a1;
-  font-size: 20px;
-  padding-top: 5px;
+footer .menu__Footer .footer__redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
-  padding-bottom: 5px;
-  border-bottom: 2px solid #000000;
-  margin: 0 10px;
 }
 
-footer .menu__Footer h6 {
-  font-size: 18px;
-  padding-bottom: 12px;
-  padding-top: 15px;
-}
-
-footer .menu__Footer .name {
-  font-style: italic;
-}
-
-footer .menu__Footer ul {
+footer .menu__Footer .footer__redes ul {
   list-style: none;
 }
 
-footer .menu__Footer ul li {
-  padding-bottom: 15px;
+footer .menu__Footer .footer__redes ul li {
+  padding-top: 5px;
 }
 
-footer .menu__Footer ul li a {
+footer .menu__Footer .footer__redes ul li a {
   color: black;
 }
 
-footer .menu__Footer ul li a img {
+footer .menu__Footer .footer__redes ul li a img {
   width: 20px;
 }
 
-footer a img {
+footer .menu__Footer .footer__contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+footer .menu__Footer .footer__contacto .name {
+  font-size: 18px;
+}
+
+footer .menu__Footer .footer__contacto ul {
+  list-style: none;
+}
+
+footer .menu__Footer .footer__contacto ul li {
+  padding-top: 5px;
+}
+
+footer .menu__Footer .footer__contacto ul li a {
+  color: black;
+}
+
+footer .menu__Footer .footer__contacto ul li a img {
   width: 20px;
 }
 
@@ -185,7 +206,6 @@ footer .copy p {
   main {
     width: 100%;
     height: auto;
-    background-image: url(../multimedia/fondo-flores-tablet-desktop.jpg);
   }
   main .miContainer {
     -webkit-box-align: center;
@@ -221,7 +241,7 @@ footer .copy p {
             flex-direction: row;
   }
   main .miContainer__dos .description__one img {
-    width: 350px;
+    width: 340px;
   }
   main .miContainer__dos .description__one p {
     width: 350px;
@@ -234,7 +254,22 @@ footer .copy p {
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
   }
-  footer {
+  footer h5 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  footer .menu__Footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer .menu__Footer h5 {
+    text-align: center;
+  }
+  footer .copy {
     font-size: 18px;
   }
 }
@@ -257,31 +292,27 @@ footer .copy p {
   main {
     width: 100%;
     height: auto;
-    background-image: url(../multimedia/fondo-flores-tablet-desktop.jpg);
+    background-image: none;
+    background-color: #ffc0cbaf;
   }
   main .miContainer .presentacion__Home {
-    width: 1200px;
-    height: auto;
+    width: 100%;
+    height: 550px;
+    border-radius: 0px;
     background-color: #ffffff00;
   }
   main .miContainer .presentacion__Home h1 {
-    background-color: white;
     color: #70070e;
-    font-size: 45px;
-    -webkit-box-shadow: 0 0 10px 5px #000000c0;
-            box-shadow: 0 0 10px 5px #000000c0;
+    font-size: 50px;
+    margin-top: 80px;
   }
   main .miContainer .presentacion__Home h2 {
-    margin-top: -10px;
-    background-color: white;
     color: #70070e;
-    font-size: 45px;
-    border-bottom: none;
+    font-size: 50px;
+    border-bottom: 2px solid #000000bd;
   }
   main .miContainer .presentacion__Home p {
-    background-color: white;
-    font-size: 30px;
-    margin-top: -20px;
+    font-size: 35px;
   }
   main .miContainer__dos h3 {
     background-color: white;
@@ -294,11 +325,27 @@ footer .copy p {
   main .miContainer__dos .description__one img {
     width: 500px;
     height: auto;
+    margin-bottom: 10px;
   }
   main .miContainer__dos .description__one p {
     width: 500px;
     height: auto;
     font-size: 25px;
+  }
+  footer h5 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  footer .menu__Footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer .menu__Footer h5 {
+    text-align: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
