@@ -14,13 +14,16 @@
         align-items: center;
         display: flex;
         flex-direction: column;
+        background-size: cover;
+        background-repeat: no-repeat;
         .container__Contacto{
             width: 500px;
             height: 300px;
         }
         .mi__form{
-            width: 500px;
-            height: 300px;
+            width: 600px;
+            height: 400px;
+            box-shadow: 0 0 5px 5px #00000094;
         }
     }
 }

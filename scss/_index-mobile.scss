@@ -17,40 +17,46 @@ header{
 main{
     width: 100%;
     height: auto;
-    background-color: #ffc0cbaf;
+    background-color: #ffc6af;
     border-bottom: 2px solid white;
     .miContainer{
         display: flex;
         flex-direction: column;
         text-align: center;
+        background-image: url(../multimedia/fondo_casa.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         .presentacion__Home{
             height: auto;
             padding: 5px 5px;
-            border-radius: 5px;
-            margin: 10px 2px;
+            background-color:#0000003a;
             h1{
-                color:#70070e;
+               background-image: linear-gradient(to right, #ffa600c4,#ff0000c7,#f353f3);
+               -webkit-text-fill-color: transparent;
+               -webkit-background-clip: text;
                 font-size: 30px;
             }    
             h2{
-                color:#70070e;
-                font-size: 30px;
-                border-bottom: 1px solid black;
+                padding-bottom: 10px;
+                color:white;
+                font-size: 28px;
+                border-bottom: 2px solid #00000086;
             }
             p{
-                font-size: 20px;
-                color:black;
-                padding-top: 20px;
+                font-size: 24px;
+                color:white;
             }
         }
     }
     .miContainer__dos{
-        h3{
-            font-size: 20px;
-            text-align: center;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            background-color:white;
+        .container_h3{
+            background-image: linear-gradient(to right, #b0f2c2, #fcfcda);
+            h3{
+                font-size: 20px;
+                text-align: center;
+                margin-top: 20px;
+            }
         }
         .description__one{
             display: flex;
@@ -79,12 +85,10 @@ footer{
         text-align: center;
         font-size: 18px;
         padding-top: 10px;
-        border-bottom: 1px solid white;
         margin: 0 25px;
         margin-bottom: 10px;
     }
     .menu__Footer{
-        border-bottom: 2px solid black;
         .footer__redes{
             display: flex;
             flex-direction: column;

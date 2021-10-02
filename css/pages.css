@@ -52,7 +52,8 @@ header .colorFondo .logo {
 }
 
 main {
-  background-color: #ffc0cbaf;
+  background-image: -webkit-gradient(linear, left top, right top, from(#b0f2c2), to(#fcfcda));
+  background-image: linear-gradient(to right, #b0f2c2, #fcfcda);
   width: 100%;
   height: auto;
   border-bottom: 2px solid white;
@@ -97,13 +98,8 @@ footer h5 {
   text-align: center;
   font-size: 18px;
   padding-top: 10px;
-  border-bottom: 1px solid white;
   margin: 0 25px;
   margin-bottom: 10px;
-}
-
-footer .menu__Footer {
-  border-bottom: 2px solid black;
 }
 
 footer .menu__Footer .footer__redes {
@@ -241,10 +237,17 @@ footer .copy p {
   header {
     width: 100%;
     height: auto;
+    -webkit-box-shadow: 0 0 5px 5px #000000c5;
+            box-shadow: 0 0 5px 5px #000000c5;
+    margin-bottom: 10px;
+    border-bottom: none;
   }
   header .colorFondo .logo {
     width: 180px;
     height: auto;
+  }
+  main {
+    background-color: #ffc0cbaf;
   }
   main .contenedor {
     display: -webkit-box;
@@ -256,19 +259,44 @@ footer .copy p {
             flex-direction: row;
   }
   main .contenedor .contenido__sobreMi {
-    width: 400px;
+    width: 380px;
     height: auto;
   }
   main .contenedor .contenido__sobreMi h2 {
+    color: #a1a107b0;
     font-size: 40px;
     padding-bottom: 0px;
   }
   main .contenedor .contenido__sobreMi p {
-    font-size: 25px;
+    font-size: 26px;
+    text-align: justify;
   }
   main .contenedor .imagen__chef img {
-    width: 380px;
+    width: 390px;
     margin-left: 280px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 5px 5px #000000c2;
+            box-shadow: 0 0 5px 5px #000000c2;
+  }
+  footer {
+    margin-top: 5px;
+    -webkit-box-shadow: 0 0 5px 5px #000000c5;
+            box-shadow: 0 0 5px 5px #000000c5;
+  }
+  footer h5 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  footer .menu__Footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer .menu__Footer h5 {
+    text-align: center;
   }
 }
 
@@ -438,7 +466,7 @@ main {
   height: auto;
 }
 
-main .contenedor__Galeria {
+main .contenedor-Galeria {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -448,46 +476,50 @@ main .contenedor__Galeria {
           flex-direction: column;
 }
 
-main .contenedor__Galeria .boxGaleriaUno img {
-  width: 250px;
+main .contenedor-Galeria .grid-imagenes img {
+  width: 300px;
   height: auto;
-  margin: 10px;
+  margin-left: -10px;
+  margin-bottom: 10px;
 }
 
-main .contenedor__Galeria .boxGaleriaDos img {
-  width: 250px;
+main .contenedor-Galeria .images-grid img {
+  width: 300px;
   height: auto;
-  margin: 10px;
+  margin-left: -10px;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 768px) {
-  main {
+  header {
     width: 100%;
-    height: auto;
   }
-  main .contenedor__Galeria {
+  main .contenedor-Galeria {
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: auto auto;
-        grid-template-rows: auto auto;
-    -ms-grid-columns: 400px 300px;
-        grid-template-columns: 400px 300px;
-    gap: 10px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-grid-columns: 33% 33% 33%;
+        grid-template-columns: 33% 33% 33%;
   }
-  main .contenedor__Galeria .boxGaleriaUno img {
-    width: 300px;
+  main .contenedor-Galeria .grid-imagenes img {
+    width: 250px;
     height: auto;
   }
-  main .contenedor__Galeria .boxGaleriaDos img {
-    width: 300px;
-    height: auto;
+  main .contenedor-Galeria .images-grid img {
+    width: 250px;
+    height: 400px;
   }
 }
 
 @media screen and (min-width: 1200px) {
+  * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    font-family: 'Aladin', cursive;
+  }
   header {
     width: 100%;
     height: auto;
@@ -499,26 +531,24 @@ main .contenedor__Galeria .boxGaleriaDos img {
   main {
     width: 100%;
     height: auto;
+    background-color: pink;
   }
-  main .contenedor__Galeria {
+  main .contenedor-Galeria {
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: 380px 450px;
-        grid-template-rows: 380px 450px;
-    -ms-grid-columns: auto auto auto;
-        grid-template-columns: auto auto auto;
-    gap: 15px;
+    -ms-grid-columns: 400px 400px 400px;
+        grid-template-columns: 400px 400px 400px;
+    -ms-grid-rows: auto auto auto;
+        grid-template-rows: auto auto auto;
+    gap: 10px;
   }
-  main .contenedor__Galeria .boxGaleriaUno img {
-    width: 350px;
+  main .contenedor-Galeria .grid-imagenes img {
+    width: 400px;
     height: auto;
-    margin-top: 10px;
-    text-align: center;
   }
-  main .contenedor__Galeria .boxGaleriaDos img {
-    width: 350px;
-    height: 400px;
-    text-align: center;
+  main .contenedor-Galeria .images-grid img {
+    width: 400px;
+    height: 550px;
   }
 }
 
@@ -576,24 +606,18 @@ main .contenedor__Galeria .boxGaleriaDos img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   main .container__Contacto {
     width: 500px;
     height: 300px;
   }
   main .mi__form {
-    width: 500px;
-    height: 300px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  footer {
-    width: 100%;
-    height: 500px;
-  }
-  footer .copy {
-    font-size: 15px;
+    width: 600px;
+    height: 400px;
+    -webkit-box-shadow: 0 0 5px 5px #00000094;
+            box-shadow: 0 0 5px 5px #00000094;
   }
 }
 
@@ -620,8 +644,8 @@ main .container__Contacto p {
 }
 
 main .container__Contacto nav ul {
-  background-image: -webkit-gradient(linear, left top, right top, from(#ffa60091), to(#ff000080));
-  background-image: linear-gradient(to right, #ffa60091, #ff000080);
+  background-image: -webkit-gradient(linear, left top, right top, from(pink), to(white));
+  background-image: linear-gradient(to right, pink, white);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -630,9 +654,7 @@ main .container__Contacto nav ul {
           justify-content: center;
   margin-left: 10px;
   margin-right: 10px;
-  border-radius: 10px;
-  -webkit-box-shadow: 0 0 5px 5px;
-          box-shadow: 0 0 5px 5px;
+  border-radius: 5px;
 }
 
 main .container__Contacto nav ul li {

@@ -14,10 +14,11 @@ body{
         }
     }
     main{
-       background-color: #ffc0cbaf; 
+       background-image: linear-gradient(to right, #b0f2c2, #fcfcda);
        width: 100%;
        height: auto;
        border-bottom: 2px solid white;
+       
         .contenedor{
             padding: 5px;
             .contenido__sobreMi{
@@ -49,12 +50,10 @@ body{
             text-align: center;
             font-size: 18px;
             padding-top: 10px;
-            border-bottom: 1px solid white;
             margin: 0 25px;
             margin-bottom: 10px;
         }
         .menu__Footer{
-            border-bottom: 2px solid black;
             .footer__redes{
                 display: flex;
                 flex-direction: column;

@@ -27,7 +27,7 @@ header .logo {
 main {
   width: 100%;
   height: auto;
-  background-color: #ffc0cbaf;
+  background-color: #ffc6af;
   border-bottom: 2px solid white;
 }
 
@@ -40,38 +40,47 @@ main .miContainer {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
+  background-image: url(../multimedia/fondo_casa.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 main .miContainer .presentacion__Home {
   height: auto;
   padding: 5px 5px;
-  border-radius: 5px;
-  margin: 10px 2px;
+  background-color: #0000003a;
 }
 
 main .miContainer .presentacion__Home h1 {
-  color: #70070e;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffa600c4), color-stop(#ff0000c7), to(#f353f3));
+  background-image: linear-gradient(to right, #ffa600c4, #ff0000c7, #f353f3);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
   font-size: 30px;
 }
 
 main .miContainer .presentacion__Home h2 {
-  color: #70070e;
-  font-size: 30px;
-  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 28px;
+  border-bottom: 2px solid #00000086;
 }
 
 main .miContainer .presentacion__Home p {
-  font-size: 20px;
-  color: black;
-  padding-top: 20px;
+  font-size: 24px;
+  color: white;
 }
 
-main .miContainer__dos h3 {
+main .miContainer__dos .container_h3 {
+  background-image: -webkit-gradient(linear, left top, right top, from(#b0f2c2), to(#fcfcda));
+  background-image: linear-gradient(to right, #b0f2c2, #fcfcda);
+}
+
+main .miContainer__dos .container_h3 h3 {
   font-size: 20px;
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 20px;
-  background-color: white;
 }
 
 main .miContainer__dos .description__one {
@@ -110,13 +119,8 @@ footer h5 {
   text-align: center;
   font-size: 18px;
   padding-top: 10px;
-  border-bottom: 1px solid white;
   margin: 0 25px;
   margin-bottom: 10px;
-}
-
-footer .menu__Footer {
-  border-bottom: 2px solid black;
 }
 
 footer .menu__Footer .footer__redes {
@@ -193,6 +197,9 @@ footer .copy p {
 }
 
 @media screen and (min-width: 768px) {
+  header {
+    width: 100%;
+  }
   header .colorFondo {
     background-color: none;
   }
@@ -213,22 +220,22 @@ footer .copy p {
             align-items: center;
   }
   main .miContainer .presentacion__Home {
-    width: 700px;
+    width: 100%;
     height: auto;
-    margin-top: 10px;
     padding: 10px 10px;
   }
   main .miContainer .presentacion__Home h1 {
-    font-size: 35px;
+    font-size: 40px;
   }
   main .miContainer .presentacion__Home h2 {
-    font-size: 35px;
+    font-size: 30px;
     padding-bottom: 8px;
   }
   main .miContainer .presentacion__Home p {
     font-size: 25px;
+    color: white;
   }
-  main .miContainer__dos h3 {
+  main .miContainer__dos .container_h3 h3 {
     font-size: 30px;
   }
   main .miContainer__dos .description__one {
@@ -242,6 +249,7 @@ footer .copy p {
   }
   main .miContainer__dos .description__one img {
     width: 340px;
+    margin-bottom: 10px;
   }
   main .miContainer__dos .description__one p {
     width: 350px;
@@ -275,8 +283,14 @@ footer .copy p {
 }
 
 @media screen and (min-width: 1200px) {
+  header {
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 0 5px 5px #000000c5;
+            box-shadow: 0 0 5px 5px #000000c5;
+    border-bottom: none;
+  }
   header .colorFondo {
-    background-color: pink;
+    background-color: #ffc0cb;
   }
   header .colorFondo .logo {
     width: 180px;
@@ -286,51 +300,88 @@ footer .copy p {
     font-size: 20px;
   }
   header .colorFondo ul a:hover {
-    background-color: #ffffffa6;
+    background-color: #ffffffd3;
     border-radius: 10px;
   }
   main {
     width: 100%;
     height: auto;
-    background-image: none;
-    background-color: #ffc0cbaf;
+  }
+  main .miContainer {
+    width: 100%;
+    height: 700px;
+    background-image: url(../multimedia/fondo_casa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   main .miContainer .presentacion__Home {
     width: 100%;
-    height: 550px;
     border-radius: 0px;
     background-color: #ffffff00;
   }
   main .miContainer .presentacion__Home h1 {
-    color: #70070e;
-    font-size: 50px;
-    margin-top: 80px;
+    color: #000000;
+    font-size: 70px;
+    margin-top: 20px;
+    border-bottom: 2px solid #00000086;
+    margin: 0 80px;
+    padding-bottom: 10px;
   }
   main .miContainer .presentacion__Home h2 {
-    color: #70070e;
-    font-size: 50px;
-    border-bottom: 2px solid #000000bd;
+    color: #000000;
+    font-size: 65px;
+    padding-top: 12px;
+    border-bottom: none;
+    margin-top: 85px;
   }
   main .miContainer .presentacion__Home p {
-    font-size: 35px;
+    font-size: 30px;
+    color: #000000;
+    background-color: #ffffff71;
+    border-radius: 5px;
   }
-  main .miContainer__dos h3 {
-    background-color: white;
-    -webkit-box-shadow: 0 0 5px 5px #000000c0;
-            box-shadow: 0 0 5px 5px #000000c0;
+  main .miContainer .box__images {
+    width: 1200px;
+    height: auto;
+  }
+  main .miContainer .box__images img {
+    width: 50px;
+  }
+  main .miContainer__dos {
+    background-color: #ffc6af;
+  }
+  main .miContainer__dos .container_h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 10px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#b0f2c2), to(#fcfcda));
+    background-image: linear-gradient(to right, #b0f2c2, #fcfcda);
+  }
+  main .miContainer__dos .container_h3 h3 {
     font-size: 30px;
     height: 50px;
-    color: #70070e;
+    color: #000000;
   }
   main .miContainer__dos .description__one img {
     width: 500px;
     height: auto;
     margin-bottom: 10px;
+    border-radius: 5px;
   }
   main .miContainer__dos .description__one p {
     width: 500px;
     height: auto;
     font-size: 25px;
+  }
+  footer {
+    margin-top: 5px;
+    -webkit-box-shadow: 0 0 5px 5px #000000c5;
+            box-shadow: 0 0 5px 5px #000000c5;
   }
   footer h5 {
     text-align: center;

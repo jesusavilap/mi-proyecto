@@ -16,13 +16,12 @@ main{
         }
         nav{
             ul{
-                background-image: linear-gradient( to right, #ffa60091, #ff000080);
+                background-image: linear-gradient( to right,pink, white);
                 display: flex;
                 justify-content: center;
                 margin-left: 10px;
                 margin-right: 10px;
-                border-radius: 10px;
-                box-shadow: 0 0 5px 5px;
+                border-radius: 5px;
                 li{
                     list-style: none;
                     margin-right: 10px;

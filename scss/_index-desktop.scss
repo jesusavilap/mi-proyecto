@@ -1,7 +1,10 @@
 @media screen and (min-width:1200px){
     header{
+        margin-bottom: 10px;
+        box-shadow: 0 0 5px 5px #000000c5;
+        border-bottom: none;
         .colorFondo{
-            background-color: pink;
+            background-color: #ffc0cb;
             .logo{
                 width: 180px;
                 height: auto;
@@ -11,7 +14,7 @@
                    font-size: 20px;
                 }
                 a:hover{
-                    background-color:#ffffffa6;
+                    background-color:#ffffffd3;
                     border-radius: 10px;
                 }
             }
@@ -20,42 +23,67 @@
     main{
         width:100%;
         height: auto;
-        background-image:none;
-        background-color: #ffc0cbaf;
         .miContainer{
+            width: 100%;
+            height:700px;
+            background-image: url(../multimedia/fondo_casa.jpg);
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: center;
             .presentacion__Home{
                 width:100%;
-                height:550px;
                 border-radius: 0px;
                 background-color:#ffffff00;
                 h1{
-                    color:#70070e;
-                    font-size: 50px;
-                    margin-top: 80px;
-                 }
-                 h2{
-                     color:#70070e;
-                     font-size: 50px;
-                     border-bottom: 2px solid #000000bd;
-                 }
+                    color:#000000;
+                    font-size: 70px;
+                    margin-top: 20px;
+                    border-bottom: 2px solid #00000086;
+                    margin: 0 80px;    
+                    padding-bottom: 10px;                
+                }
+                h2{
+                    color: #000000;
+                    font-size: 65px;
+                    padding-top: 12px;
+                    border-bottom: none;
+                    margin-top: 85px;
+                }
                 p{
-                    font-size: 35px;
+                    font-size: 30px;
+                    color: #000000;
+                    background-color: #ffffff71;
+                    border-radius: 5px;
+                }
+            }
+            .box__images{
+                width: 1200px;
+                height: auto;
+                img{
+                   width: 50px;
                 }
             }
         }
         .miContainer__dos{
-            h3{
-                background-color: white;
-                box-shadow: 0 0 5px 5px #000000c0;
-                font-size: 30px;
-                height: 50px;
-                color: #70070e;
+            background-color:#ffc6af;
+            .container_h3{
+                display: flex;
+                justify-content: center;
+                margin: 10px;
+                background-image: linear-gradient(to right, #b0f2c2, #fcfcda);
+                h3{
+                    font-size: 30px;
+                    height: 50px;
+                    color: #000000;
+                }
             }
+            
             .description__one{
                 img{
                     width: 500px;
                     height: auto;
                     margin-bottom: 10px;
+                    border-radius: 5px;
                 }
                 p{
                     width: 500px;
@@ -67,6 +95,8 @@
     }
 
     footer{
+        margin-top: 5px;
+        box-shadow: 0 0 5px 5px #000000c5;
         h5{
             text-align: center;
             padding-top: 10px;

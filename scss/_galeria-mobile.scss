@@ -5,18 +5,20 @@
 main{
     width: 320px;
     height: auto;
-    .contenedor__Galeria{
-        display: flex;
-        flex-direction: column;
-       .boxGaleriaUno img{
-           width: 250px;
-           height: auto;
-           margin: 10px; 
-       }
-       .boxGaleriaDos img{
-            width: 250px;
+    .contenedor-Galeria{
+       display: flex;
+       flex-direction: column;
+        .grid-imagenes img{
+            width: 300px;
             height: auto;
-            margin: 10px;
-       }
+            margin-left: -10px;
+            margin-bottom: 10px;
+        }
+        .images-grid img{
+            width: 300px;
+            height: auto;
+            margin-left: -10px;
+            margin-bottom: 10px;
+        }    
     } 
 }
