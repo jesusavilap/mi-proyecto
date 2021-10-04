@@ -136,14 +136,13 @@
           </nav>
         </div>
       </div>
-      <form>
+      <form action="enviar.php" method="post">
         <div
           class="
             mi__form
             container-fluid
             bg-dark
-            animate__animated animate__backInDown
-          "
+            animate__animated animate__backInDown"
         >
           <div class="mb-3">
             <label
@@ -152,7 +151,8 @@
               >Email</label
             >
             <input
-              type="email"
+              type="text"
+              name="email"
               class="form-control"
               id="exampleFormControlInput1"
               placeholder="email@example.com"

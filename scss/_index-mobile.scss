@@ -5,7 +5,7 @@ header{
     width: 100%;
     border-bottom: 2px solid white;
     .colorFondo{
-        background-color: #ffc0cb;
+        background-color: #ffc0cbd0;
         height:auto;
     }
     .logo{
@@ -32,15 +32,16 @@ main{
             padding: 5px 5px;
             background-color:#0000003a;
             h1{
-               background-image: linear-gradient(to right, #ffa600c4,#ff0000c7,#f353f3);
-               -webkit-text-fill-color: transparent;
-               -webkit-background-clip: text;
-                font-size: 30px;
+              font-size: 30px;
+                background: -webkit-linear-gradient(#ffff00dc, #ff0000d2,#f34af3e3);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                color:white; 
             }    
             h2{
                 padding-bottom: 10px;
                 color:white;
-                font-size: 28px;
+                font-size: 25px;
                 border-bottom: 2px solid #00000086;
             }
             p{
@@ -49,36 +50,41 @@ main{
             }
         }
     }
-    .miContainer__dos{
+    .container_dos{
+
         .container_h3{
             background-image: linear-gradient(to right, #b0f2c2, #fcfcda);
             h3{
-                font-size: 20px;
+                font-size: 25px;
                 text-align: center;
                 margin-top: 20px;
             }
         }
-        .description__one{
+        .contenido_home{
             display: flex;
             flex-direction: column;
             align-items: center;
+            padding: 0 10px;
             img{
-                width: 250px;
+                width: 100%;
                 height: auto;
+                border-radius: 5px;
             }
             p{
-                font-size: 15px;
+                font-size: 18px;
+                color: #000000d7;
+                background-color: #ffffffd5;
                 text-align: center;
-                background-color: white;
-                width: 250px;
-                padding: 0 5px;
+                width:100%;
+                padding: 5px 5px;
+                border-radius: 5px;
             }
         }
-    }
+    }   
 }
 
 footer{
-    background-color: pink;
+    background-color:#ffc0cbd0;
     width: 100%;
     height:auto;
     h5{
