@@ -9,4 +9,39 @@
             }
         }
     }
+
+    main{
+        width: 100%;
+        height: auto;
+        .container_servicios{
+            width: 100%;
+            height: auto;
+            align-items: center;
+            .texto_presentacion{
+                width: 800px;
+                padding: 10px 10px;
+                h1{
+                    font-size: 50px;
+                }
+                
+                p{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

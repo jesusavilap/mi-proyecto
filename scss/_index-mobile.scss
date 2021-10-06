@@ -1,5 +1,6 @@
 body{
-    font-family: 'Aladin', cursive;
+    /* font-family: 'Aladin', cursive; */
+    font-family: 'Amatic SC', cursive;
 }
 header{
     width: 100%;
@@ -32,7 +33,7 @@ main{
             padding: 5px 5px;
             background-color:#0000003a;
             h1{
-              font-size: 30px;
+                font-size: 35px;
                 background: -webkit-linear-gradient(#ffff00dc, #ff0000d2,#f34af3e3);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
@@ -45,13 +46,12 @@ main{
                 border-bottom: 2px solid #00000086;
             }
             p{
-                font-size: 24px;
+                font-size: 25px;
                 color:white;
             }
         }
     }
     .container_dos{
-
         .container_h3{
             background-image: linear-gradient(to right, #b0f2c2, #fcfcda);
             h3{
@@ -71,7 +71,7 @@ main{
                 border-radius: 5px;
             }
             p{
-                font-size: 18px;
+                font-size: 20px;
                 color: #000000d7;
                 background-color: #ffffffd5;
                 text-align: center;
@@ -139,6 +139,8 @@ footer{
         display: flex;
         flex-direction: column;
         text-align: center;
+        font-family: sans-serif;
+        font-size: 12px;
         p{
             padding-top: 10px;
         }

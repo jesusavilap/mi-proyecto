@@ -1,37 +1,44 @@
-@import"variables";
 main{
-    width: 100%;
-    height: auto;
-    padding: 20px;
-    .container__servicios{
-        box-shadow: 0 0 10px 5px;
-        background-color: #000000c5;
-        padding: 0 15px;
-        border-radius: 10px;
+    background-image: linear-gradient(to right, #fcfcc9da, #ffc0cbcb);
+    .container_servicios{
+        width: 100%;
         height: auto;
-        h2{
-        color: white;
+        display: flex;
+        flex-direction: column;
         text-align: center;
-        padding-top: 10px;
-        border-bottom: 1px solid white;
-        font-size: 30px;
+        padding: 10px 10px;
+        .texto_presentacion{
+            h1{
+                color:lightcoral;
+                font-size: 40px;
+                border-bottom: 2px solid #808080a2;
+            }
+            p{
+                text-align: justify;
+                font-size: 18px;
+            }
         }
-        ul{
-            color: white;
-            list-style: none;
-            li{
-                font-size: 20px;
-                padding-top: 10px;
-                img{
-                    width: 25px;
+        
+        .info_cursos{
+            h3{
+                font-size: 20x;
+                color: lightcoral;
+            }
+            p{
+                font-size: 18px;
+                color: blueviolet;
+            }
+            ul{
+                list-style: none;
+                li{
+                    img{
+                        width: 20px;
+                    }
+                    a{
+                        color: hotpink;
+                    }
                 }
             }
         }
-        p{
-            font-size: 15px;
-            color: white;
-            padding-bottom: 10px;
-        }
     }
-        
 }

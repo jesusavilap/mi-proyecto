@@ -17,23 +17,64 @@
     main{
         width: 100%;
         height: auto;
-        .container__servicios{
-            width: 500px;
-            height: auto;
-            box-shadow: 0 0 10px 5px;
-            h2{
-                font-size: 35px;
-                border-bottom: 1 solid white;
-            }
-            ul{
-                li{
-                    font-size: 25px;
-                    text-align: left;
+        .container_servicios{
+            .texto_presentacion{
+                h1{
+                    color: lightcoral;
+                    font-size: 40px;
+                    border-bottom: none;
+                }    
+                p{
+                    text-align: justify;
+                    font-size: 22px;
                 }
             }
-            p{
-                font-size: 20px;
+            .info_cursos{
+                h3{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 20px;
+                    color:blueviolet;
+                }
             }
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

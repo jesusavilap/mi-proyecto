@@ -16,26 +16,24 @@
         width: 100%;
         height: auto;
         .miContainer{
-            align-items: center;
             .presentacion__Home{
-                width: 100%;
-                height: 400px;
-                padding: 10px 10px;
                 h1{
-                    font-size: 50px;
-                }        
+                    font-size: 60px;
+                }
                 h2{
-                    font-size: 35px;
-                    padding-bottom: 8px;
+                    font-size: 38px;
+                    border-bottom: none;
                 }
                 p{
-                    font-size: 30px;
-                    color:white;
+                    font-size: 35px;
                 }
             }
         }
+    
         .container_dos{
             .container_h3{
+                width: 100%;
+                height: auto;
                 h3{
                     font-size: 30px;
                 }
@@ -46,13 +44,14 @@
                 img{
                     width: 250px;
                     height: auto;
+                    margin-top: 10px;
                     margin-bottom: 10px;
                 }
                 p{
-                    width: 300px;
-                    height: 300px;
                     font-size: 22px;
-                    padding: 10px 10px;
+                    width: 250px;
+                    height: 300px;
+                    padding: 5px 5px;
                 }
             }
             .contenido_reverse{
@@ -60,22 +59,28 @@
             }
         }
     }
-
     footer{
         h5{
             text-align: center;
             padding-top: 10px;
             padding-bottom:10px;
+            font-size: 25px;
         }
         .menu__Footer{
-            h5{
-                text-align: center;
-            }
             display: flex;
             justify-content: space-around;
+            h6{
+                font-size: 20px;
+            }
+            .footer__contacto{
+                .name{
+                    font-size: 20px;
+                }
+            }
         }
         .copy{
-            font-size: 18px;
+            font-size: 15px;
+            font-family:sans-serif;
         }
     }
 }

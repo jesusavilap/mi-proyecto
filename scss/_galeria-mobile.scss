@@ -3,22 +3,21 @@
     height: auto;
 }
 main{
-    width: 320px;
+    width:100%;
     height: auto;
-    .contenedor-Galeria{
+    .contenedor_galeria{
        display: flex;
        flex-direction: column;
+       padding: 10px 10px;
         .grid-imagenes img{
-            width: 300px;
+            width: 100%;
             height: auto;
-            margin-left: -10px;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
         }
         .images-grid img{
-            width: 300px;
+            width: 100%;
             height: auto;
-            margin-left: -10px;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
         }    
     } 
 }

@@ -13,29 +13,23 @@
         }
     }
     main{
-        background-color:#ffc0cbaf;
-        
-        .contenedor{
-            display: flex;
-            flex-direction: row;
+        background-image: linear-gradient(to right, #fcfcc9da, #ffc0cbcb);
+        .contenedor_sobreMi{
+            width: 80%;
+            height: auto;
+            text-align: center;
             .contenido__sobreMi{
-                width: 380px;
+                width: 400px;
                 height: auto;
                 h2{
-                    color:#a1a107b0;
-                    font-size: 40px;
-                    padding-bottom: 0px;
+                    font-size: 50px;
                 }
                 p{
-                    font-size: 26px;
-                    text-align: justify;
+                    font-size: 28px;
                 }
             }
             .imagen__chef img{
-                width: 390px;
-                margin-left: 280px;
-                border-radius: 5px;
-                box-shadow: 0 0 5px 5px #000000c2;
+                width: 400px;
             }
         }
     }
